@@ -1,56 +1,14 @@
 # hif2gene: Dense, high-resolution mapping of cells and tissues from pathology images for the interpretable prediction of molecular phenotypes in cancer
 
 ## Notice
-> Some components of this repository are awaiting legal and regulatory review. We expect to release its full contents within 1-2 weeks. 
+> Scripts, data, and figures are now hosted on the PathAI Github. Please visit [https://github.com/Path-AI/hif2gene](https://github.com/Path-AI/hif2gene). 
 
 ## Overview
-> `hif2gene` is the primary code repository for reproducing analyses in Diao, Chui, and Wang et al. 2020: "Dense, high-resolution mapping of cells and tissues from pathology images for the interpretable prediction of molecular phenotypes in cancer". The preprint is available on `bioRxiv` at [https://www.biorxiv.org/content/10.1101/2020.08.02.233197v1](https://www.biorxiv.org/content/10.1101/2020.08.02.233197v1).
 
-## Installation
-- Clone this repo to your local machine using https://github.com/jamesdiao/hif2gene.git
-
-## Contents
-1. `/scripts` contains all Python and R code used to produce content in `/figures` from `/data` (awaiting legal/regulatory review)
-2. `/data` contains all raw and cached data objects needed to reproduce the analysis from scratch (awaiting legal/regulatory review)
-3. `/figures` contains all primary figures as individual vectorized `.pdf` 
-
-## Version and package requirements 
-- R version: 3.6.2
-    - `caret`
-    - `cluster`
-    - `cowplot`
-    - `data.table`
-    - `devtools`
-    - `dplyr`
-    - `ggplot2`
-    - `ggpubr`
-    - `mclust`
-    - `openxlsx`
-    - `readxl`
-    - `stringr`
-- Python version: 3.7.4
-    - `collections`
-    - `copy`
-    - `group_lasso`
-    - `ipython`
-    - `lifelines`
-    - `math`
-    - `matplotlib`
-    - `numpy`
-    - `pandas`
-    - `pickle`
-    - `plotly`
-    - `random`
-    - `scipy`
-    - `seaborn`
-    - `sklearn`
-    - `statsmodels`
-    - `sys`
-    - `umap`
-    - `warnings`
-
+> `hif2gene` is the primary code repository for reproducing analyses in Diao, Chui, and Wang et al. 2020: "Dense, high-resolution mapping of cells and tissues from pathology images for the interpretable prediction of molecular phenotypes in cancer". The preprint is available on `bioRxiv` at [https://www.biorxiv.org/content/10.1101/2020.08.02.233197v2](https://www.biorxiv.org/content/10.1101/2020.08.02.233197v2).
 
 ## Authors
+
 \*James A Diao<sup>1,2</sup>, \*Wan Fung Chui<sup>1,2</sup>, \*Jason K Wang<sup>1,2</sup>, Richard N Mitchell<sup>2,3</sup>, Sudha K Rao<sup>1</sup>, Murray B Resnick<sup>1,4</sup>, Abhik Lahiri<sup>1</sup>, Chirag Maheshwari<sup>1</sup>, Benjamin Glass<sup>1</sup>, Victoria Mountain<sup>1</sup>, Jennifer K Kerner<sup>1</sup>, Michael C Montalto<sup>1</sup>, Aditya Khosla<sup>1</sup>, Ilan N Wapinski<sup>1</sup>, \*Andy H Beck<sup>1</sup>, \*Amaro Taylor-Weiner<sup>1</sup>, \*Hunter Elliott<sup>1</sup>
 
 - <sup>1</sup>PathAI, Inc., Boston, MA, 02215, USA
